@@ -2,16 +2,62 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#0f1722" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Weather App - 원하는 도시의 날씨를 알려주는 앱"
     />
-    <title>React App</title>
+    <meta name="author" content="bestthe" />
+
+    <!-- Favicon & Apple Touch Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/favicon/site.webmanifest" />
+
+    <!-- Open Graph (Facebook, LinkedIn 등) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Weather App" />
+    <meta property="og:description" content="React로 만든 Weather App" />
+    <meta property="og:url" content="https://bestthe.github.io/Movie-App" />
+    <meta property="og:image" content="%PUBLIC_URL%/thumbnail.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Weather App" />
+    <meta name="twitter:description" content="React로 만든 Weather App" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/thumbnail.png" />
+
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Weather App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript
+      >JavaScript가 필요합니다. 브라우저 설정에서 활성화해주세요.</noscript
+    >
     <div id="root"></div>
   </body>
 </html>
