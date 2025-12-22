@@ -99,7 +99,7 @@ button {
 .now_data {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 15px 40px;
   color: #fff;
 }
 
@@ -131,7 +131,7 @@ button {
 .today_forecast,
 .air_conditions,
 .weather_weekly {
-  padding: 30px 35px;
+  padding: 20px 35px;
 }
 
 .today_forecast h3,
@@ -417,7 +417,7 @@ button {
   .today_forecast,
   .air_conditions,
   .weather_weekly {
-    padding: 30px 20px;
+    padding: 20px;
   }
 
   .swiper-slide.forecast_item {
@@ -438,12 +438,6 @@ button {
 }
 
 @media (max-width: 430px) {
-  .today_forecast,
-  .air_conditions,
-  .weather_weekly {
-    padding: 20px;
-  }
-
   .now_data {
     padding: 30px 15px;
   }
