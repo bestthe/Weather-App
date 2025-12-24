@@ -387,6 +387,10 @@ button {
   .now_data {
     padding: 40px;
   }
+
+  .weather_weekly {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 768px) {
