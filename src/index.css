@@ -454,6 +454,10 @@ button {
   .seven_day_contents i {
     font-size: 40px;
   }
+
+  .min_max_temp {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 430px) {
