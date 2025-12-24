@@ -117,6 +117,12 @@ button {
   font-size: 70px;
 }
 
+.img_data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .img_data i {
   font-size: 180px;
 }
@@ -411,7 +417,7 @@ button {
   }
 
   .img_data i {
-    font-size: 150px;
+    font-size: 130px;
   }
 
   .today_forecast,
@@ -435,6 +441,14 @@ button {
   .air_title {
     gap: 15px;
   }
+
+  .forecast_item i {
+    font-size: 35px;
+  }
+
+  .seven_day_contents i {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -447,11 +461,11 @@ button {
   }
 
   .text_data h2 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .img_data i {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   .swiper-slide.forecast_item {
@@ -471,15 +485,22 @@ button {
     gap: 10px;
   }
 
-  .seven_day_contents i {
-    font-size: 40px;
+  .seven_day_contents i,
+  .forecast_item i {
+    font-size: 30px;
+  }
+
+  .seven_days,
+  .desc_weather,
+  .temp {
+    font-size: 16px;
   }
 }
 
 @media (max-width: 370px) {
   .forecast_item i,
   .seven_day_contents i {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .swiper-slide.forecast_item {
@@ -500,18 +521,12 @@ button {
     font-size: 20px;
   }
 
-  .seven_days,
-  .desc_weather,
-  .temp {
-    font-size: 16px;
-  }
-
   .seven_day_contents {
     gap: 5px;
   }
 
   .text_data h2 {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .text_data h3 {
@@ -519,7 +534,17 @@ button {
   }
 
   .img_data i {
-    font-size: 100px;
+    font-size: 80px;
+  }
+
+  .seven_days,
+  .desc_weather,
+  .temp {
+    font-size: 14px;
+  }
+
+  .img_data p {
+    font-size: 14px;
   }
 }
 
@@ -534,10 +559,6 @@ button {
     border-radius: 10px;
   }
 
-  .swiper-slide.forecast_item {
-    width: 42%;
-  }
-
   .air_title {
     gap: 10px;
   }
@@ -549,7 +570,7 @@ button {
 
   .forecast_item i,
   .seven_day_contents i {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .day_card {
@@ -560,8 +581,15 @@ button {
     padding: 10px 15px;
   }
 
-  .forecast_item i,
-  .seven_day_contents i {
-    font-size: 30px;
+  .text_data h2 {
+    font-size: 35px;
+  }
+
+  .img_data i {
+    font-size: 70px;
+  }
+
+  .text_data p {
+    margin-bottom: 10px;
   }
 }
